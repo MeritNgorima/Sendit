@@ -1,0 +1,27 @@
+.message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+.message__user{
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+
+}
+.message__userCard{
+    background-color: rgb(40, 40, 209) !important;
+    border-radius: 15px 50px 30px 5px !important; /*TL TR BR BL*/
+   border-radius: 15px 50px 30px !important; /*TL TRBL BR*/
+   border-radius: 15px 50px !important; /*TLBR TRBL*/
+   border-radius: 30px !important; /*All corners*/
+   color: white !important;
+}
+
+.message__guestCard{
+    background-color: rgb(206, 201, 201) !important;
+    border-radius: 15px 50px 30px 5px !important; /*TL TR BR BL*/
+   border-radius: 15px 50px 30px !important; /*TL TRBL BR*/
+   border-radius: 15px 50px !important; /*TLBR TRBL*/
+   border-radius: 30px !important; /*All corners*/
+}
