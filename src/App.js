@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-     <Typography variant='h2' color='secondary'>Sendit</Typography>
+     <Typography variant='h2' color='secondary'><b>Send</b>it</Typography>
     <Typography variant='h4' color='inherit'>Hello👋 {username}</Typography>
 
      <form className='app__form'>
